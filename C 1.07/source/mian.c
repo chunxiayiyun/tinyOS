@@ -4,7 +4,8 @@
 #define NVIC_PENDSV_PRI 	0X0000000FF
 
 #define MEM32(addr)			*(volatile unsigned long *)(addr)
-
+#define MEM8(addr)			*(volatile unsigned long *)(addr)
+	
 
 
 typedef struct _BlockType_t
