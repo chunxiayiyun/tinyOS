@@ -3,8 +3,8 @@
 #define NVIC_SYSPRI2  		0XE000Ed22 //¼Ä´æÆ÷µØÖ·
 #define NVIC_PENDSV_PRI 	0X0000000FF
 
-#define MEM32(addr)			*(volatile unsigned long *)(addr)
-#define MEM8(addr)			*(volatile unsigned long *)(addr)
+//#define MEM32(addr)			*(volatile unsigned long *)(addr)
+//#define MEM8(addr)			*(volatile unsigned long *)(addr)
 	
 
 
